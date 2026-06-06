@@ -32,7 +32,7 @@ const App = () => {
   return (
     <div className="bg-black h-screen overflow-auto">
       <div className="flex flex-wrap h-[90%] overflow-auto">
-        {printUserData} {page}
+        {printUserData}
       </div>
       <Buttons setPage={setPage} setUserData={setUserData} page={page} />
     </div>
