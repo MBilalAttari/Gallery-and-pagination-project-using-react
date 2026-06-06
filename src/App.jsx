@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import Buttons from "./component/buttons";
+import Buttons from "./component/Buttons";
 import Cards from "./component/Cards";
 
 const App = () => {
